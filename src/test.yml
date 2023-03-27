@@ -1,5 +1,5 @@
 
-name: Hello World
+name: Src Hello World
 on: push
 jobs:
   src_test1:
