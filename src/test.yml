@@ -2,16 +2,16 @@
 name: Hello World
 on: push
 jobs:
-  my_first_test:
-    name: My first test
+  src_test1:
+    name: src_test1
     runs-on: ubuntu-latest
     steps:
     - name: checkout
       uses: actions/checkout@master
     - name: Run a single-line script
       run: echo "Hello World!"
-  my_second_test:
-    name: My second test
+  src_test2:
+    name: src_test2
     runs-on: macos-latest
     steps:
     - name: Run a multi-line script
