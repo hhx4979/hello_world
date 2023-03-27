@@ -3,7 +3,7 @@ name: Hello World
 on: push
 jobs:
   my_first_test:
-    name: My first job
+    name: My first test
     runs-on: ubuntu-latest
     steps:
     - name: checkout
@@ -11,7 +11,7 @@ jobs:
     - name: Run a single-line script
       run: echo "Hello World!"
   my_second_test:
-    name: My second job
+    name: My second test
     runs-on: macos-latest
     steps:
     - name: Run a multi-line script
